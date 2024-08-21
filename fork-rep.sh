@@ -3,7 +3,7 @@
 # Установка Docker и Docker Compose, если они не установлены
 if ! command -v docker &> /dev/null; then
     sudo apt update
-    sudo apt install -y docker.io
+    sudo apt install -y docker docker-compose-v2
 fi
 
 if ! command -v docker-compose &> /dev/null; then
